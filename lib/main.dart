@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
 
 import 'dart:math';
 
@@ -38,14 +38,21 @@ class MyHomePage extends StatelessWidget {
         Container(
           color: Colors.red,
           child: Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.yellow,
             body: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Image.asset(
-                  'assets/images/helicopter-joypixels.gif',
+                  'assets/images/s2.gif',
+                  fit: BoxFit.cover,
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Image.asset(
+                  'assets/images/ss.png',
                   fit: BoxFit.cover,
                 ),
                 // Padding(
@@ -53,25 +60,28 @@ class MyHomePage extends StatelessWidget {
                 // ),
                 Column(
                   // ignore: duplicate_ignore
-                  children: <Widget>[
+                  children: const <Widget>[
                     // ignore: prefer_const_constructors
-                    Text(
-                      "Helicopter",
-                      // ignore: prefer_const_constructors
-                      style: TextStyle(
-                          fontSize: 50.0, fontWeight: FontWeight.bold),
-                    ),
-                    // ignore: prefer_const_constructors
-                    SizedBox(
-                      height: 10.0,
-                    ),
-                    Text(
-                      "by @codewithbiki",
-                      // ignore: prefer_const_constructors
-                      style: TextStyle(
-                        fontSize: 18.0,
-                      ),
-                    ),
+                    // Text(
+                    //   "Spiderman",
+                    //   // ignore: prefer_const_constructors
+                    //   style: TextStyle(
+                    //       fontSize: 50.0,
+                    //       fontWeight: FontWeight.bold,
+                    //       color: Colors.red),
+                    // ),
+                    // // ignore: prefer_const_constructors
+                    // SizedBox(
+                    //   height: 10.0,
+                    // ),
+                    // Text(
+                    //   "NO WAY HOME",
+                    //   // ignore: prefer_const_constructors
+                    //   style: TextStyle(
+                    //     fontSize: 30.0,
+                    //     fontWeight: FontWeight.bold,
+                    //   ),
+                    // ),
                   ],
                 ),
               ],
@@ -81,14 +91,14 @@ class MyHomePage extends StatelessWidget {
         Container(
           color: Colors.yellow,
           child: Scaffold(
-            backgroundColor: Colors.yellow,
+            backgroundColor: Colors.orange,
             body: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Image.asset(
-                  'assets/images/heli1.gif',
+                  'assets/images/s3.gif',
                   fit: BoxFit.cover,
                 ),
                 // Padding(
@@ -97,7 +107,7 @@ class MyHomePage extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     Text(
-                      "Helicopter Challange",
+                      "Iron Man Lite",
                       style: TextStyle(
                           fontSize: 40.0, fontWeight: FontWeight.bold),
                     ),
@@ -119,14 +129,14 @@ class MyHomePage extends StatelessWidget {
         Container(
           color: Colors.red,
           child: Scaffold(
-            backgroundColor: Colors.deepOrangeAccent,
+            backgroundColor: Colors.lightGreenAccent,
             body: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Image.asset(
-                  'assets/images/heli2.gif',
+                  'assets/images/s4.gif',
                   fit: BoxFit.cover,
                 ),
                 // Padding(
@@ -135,7 +145,7 @@ class MyHomePage extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     Text(
-                      "Do you wanna fly?",
+                      "Captain America",
                       style: TextStyle(
                           fontSize: 45.0, fontWeight: FontWeight.bold),
                     ),
@@ -164,7 +174,7 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Image.asset(
-                  'assets/images/heli3.gif',
+                  'assets/images/s5.gif',
                   fit: BoxFit.cover,
                 ),
                 // Padding(
@@ -173,18 +183,18 @@ class MyHomePage extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     Text(
-                      "on BELL V-280",
+                      "HULK",
                       style: TextStyle(
-                          fontSize: 50.0, fontWeight: FontWeight.bold),
+                          fontSize: 50.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
                     ),
                     SizedBox(
                       height: 10.0,
                     ),
                     Text(
                       "by @codewithbiki",
-                      style: TextStyle(
-                        fontSize: 18.0,
-                      ),
+                      style: TextStyle(fontSize: 18.0, color: Colors.white),
                     ),
                   ],
                 ),
@@ -202,7 +212,7 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Image.asset(
-                  'assets/images/heli6.gif',
+                  'assets/images/s6.gif',
                   fit: BoxFit.cover,
                 ),
                 // Padding(
@@ -211,7 +221,7 @@ class MyHomePage extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     Text(
-                      "How's the Design?",
+                      "See the Caption",
                       style: TextStyle(
                           fontSize: 40.0, fontWeight: FontWeight.bold),
                     ),
